@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    background: #4574ad;
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2013/05/09/09/06/waves-circles-109964_1280.jpg");
+}
+
+.calculator {
+    align-self: center;
+    background:#312d28;
+    border-radius: 30px;
+    box-shadow: #c1c2c4;
+    backdrop-filter: blur(10px);
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+    border: #ffffff;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    background: rgba(86, 184, 214, 0.89);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+button {
+    background-color: #39d7ff;
+    color: black;
+    border: none;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color:#1013d4 ;
+}
+
+td {
+    width: 35%;
+}
